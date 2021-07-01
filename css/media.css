@@ -1,0 +1,357 @@
+@media (max-width: 1200px) {
+    /* 1025 - 1200 */
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* 769 - 992 */
+    .burger-menu {
+        display: block;
+        background: transparent;
+        color: #d42525;
+        border: none;
+        font-size: 36px;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .menu.show-menu {
+        right: 0;
+    }
+    .menu {
+        display: flex;
+        height: 100vh;
+        right: -100%;
+        top: 0;
+        transition: .6s;
+        width: 50%;
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, #ffccff 0%, #ffffcc 100%);
+        z-index: 100;
+        text-align: center;
+    }
+    .grid {
+        grid-template-columns: 18% 1fr;
+        grid-column-gap: 160px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 24px;
+    }
+
+    .about-img {
+        width: 240px;
+        height: 240px;
+    }
+
+    .contact {
+        padding: 50px;
+    }
+
+    .right-link {
+        font-size: 20px;
+    }
+
+    .about {
+        padding: 50px 0 50px;
+    }
+
+    .box-desc {
+        font-size: 14px;
+    }
+
+    .box-title {
+        font-size: 20px;
+    }
+
+    .services-box i {
+        font-size: 30px;
+    }
+
+    .skills-link {
+        font-size: 18px;
+    }
+
+    .skills-desc {
+        font-size: 15px;
+    }
+
+    .skills-subtitle {
+        font-size: 20px;
+    }
+
+    .skills-title {
+        font-size: 30px;
+        margin-bottom: 46px;
+    }
+
+    .services {
+        background: #258c68;
+        color: #fff;
+        padding: 50px 0;
+    }
+
+    .project {
+        padding: 50px 0;
+    }
+
+    .services-title {
+        font-size: 30px;
+        margin-bottom: 46px;
+    }
+
+    .about-title {
+        font-size: 30px;
+        margin-bottom: 46px;
+    }
+
+    .project-title {
+        font-size: 30px;
+        margin-bottom: 46px;
+    }
+
+    .contact-title {
+        font-size: 30px;
+        margin-bottom: 46px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* 481 - 768 */
+    .home-img {
+        display: none;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 17px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 35px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 35px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 30px;
+        margin: 5px 0;
+    }
+
+    .grid {
+        grid-template-columns: none;
+        grid-column-gap: 0;
+    }
+
+    .home-a {
+        font-size: 20px;
+    }
+
+    .home .container {
+        padding-top: 225px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about .container {
+        padding: 0;
+    }
+
+    .right-desc {
+        font-size: 14px;
+    }
+
+    .right-text {
+        font-size: 20px;
+    }
+
+    .about-img {
+        margin-bottom: 10px;
+    }
+
+    .services-content {
+        grid-template-columns: 1fr;
+        grid-row-gap: 25px;
+    }
+
+    .skills-content {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .skills-desc {
+        font-size: 14px;
+    }
+
+    .skills-link {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+
+    .project-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .project-img {
+        width: 80%;
+        padding: 0;
+    }
+    .project-btn {
+        height: 197px;
+        width: 345px;
+    }
+    .contact-desc {
+        font-size: 14px;
+    }
+    .contact-title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .contact-subtitle {
+        font-size: 16px;
+    }
+    .contact-message {
+        font-size: 16px;
+    }
+    .contact-content{
+        flex-direction: column;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .footer-desc {
+        font-size: 14px;
+    }
+    .services {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* 320 - 480 */
+    .text-2 {
+        font-size: 20px;
+    }
+    .text-1 {
+        font-size: 15px;
+    }
+    .home-a {
+        font-size: 16px;
+    }
+    .column-left {
+        width: 70%;
+    }
+    .column-right {
+        width: 66%;
+    }
+    .right-link {
+        font-size: 16px;
+    }
+    .about-title {
+        font-size: 20px;
+    }
+    .about-title:after {
+        font-size: 16px;
+    }
+    .services-title {
+        font-size: 20px;
+        margin-bottom: 60px;
+        padding-bottom: 33px;
+    }
+    .services-title:after {
+        font-size: 16px;
+        bottom: -40px;
+    }
+    .services-title:before {
+        bottom: -10px;
+    }
+    .services-box i {
+        font-size: 20px;
+    }
+    .box-desc {
+        font-size: 12px;
+    }
+    .box-title {
+        font-size: 16px;
+    }
+    .skills-desc {
+        font-size: 12px;
+    }
+    .skills-title {
+        font-size: 20px;
+        margin-bottom: 46px;
+    }
+    .skills-title:after {
+        font-size: 16px;
+    }
+    .skills-subtitle {
+        font-size: 17px;
+    }
+    .skills-link {
+        font-size: 11px;
+    }
+    .project-btn {
+        height: 146px;
+        width: 286px;
+    }
+    .project-title {
+        font-size: 20px;
+    }
+    .project-title:after {
+        font-size: 16px;
+    }
+    .contact-desc {
+        font-size: 12px;
+    }
+    .contact-title {
+        font-size: 20px;
+    }
+    .contact-title:after {
+        font-size: 16px;
+    }
+    .info-subtitle {
+        font-size: 12px;
+    }
+    .info-title {
+        font-size: 13px;
+    }
+    .name {
+        margin-left: 15px;
+    }
+    .row i {
+        font-size: 20px;
+    }
+    .field input, textarea {
+        height: 85%;
+        width: 85%;
+        font-size: 6px;
+    }
+    .contact-message {
+        font-size: 14px;
+    }
+    .contact-btn {
+        width: 80%;
+        height: 80%;
+        font-size: 14px;
+    }
+    .footer-desc {
+        font-size: 10px;
+    }
+
+}
