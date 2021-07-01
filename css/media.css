@@ -7,10 +7,14 @@
 
 @media (max-width: 992px) {
     /* 769 - 992 */
+    .navbar{
+        display: flex;
+        width: 280px;
+    }
     .burger-menu {
         display: block;
         background: transparent;
-        color: #d42525;
+        color: yellowgreen;
         border: none;
         font-size: 36px;
         cursor: pointer;
@@ -30,7 +34,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(to bottom, #ffccff 0%, #ffffcc 100%);
+        background: linear-gradient(to bottom, #ffff00 0%, #ff3399 98%);
         z-index: 100;
         text-align: center;
     }
