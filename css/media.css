@@ -9,7 +9,6 @@
     /* 769 - 992 */
     .navbar{
         display: flex;
-        width: 280px;
     }
     .burger-menu {
         display: block;
@@ -19,6 +18,7 @@
         font-size: 36px;
         cursor: pointer;
         z-index: 100;
+        margin-right: 30px;
     }
     .menu.show-menu {
         right: 0;
